@@ -1,0 +1,14 @@
+{
+  "name": "agent-business-case",
+  "version": "1.0.0",
+  "description": "Vendor-neutral business case model for AI customer-service agents: containment ramp, repeat contacts, per-minute vs per-resolution pricing, payback.",
+  "type": "module",
+  "exports": "./src/businessCase.ts",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "example": "node example.mjs"
+  },
+  "engines": { "node": ">=22.18" },
+  "author": "Luca De Angelis",
+  "license": "MIT"
+}
